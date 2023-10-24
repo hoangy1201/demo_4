@@ -1,0 +1,135 @@
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-bottom: 1000px;
+}
+
+.Header {
+    background-color: #394a59;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.navigation a {
+    margin-right: 5px;
+}
+
+.navigation .color {
+    color: blue;
+}
+
+.divider {
+    border: 3px solid gray;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.about .about_title {
+    color: #996633;
+    text-align: center;
+    font-size: 25px;
+   margin: 20px auto;
+}
+
+.about .about_desc {
+    text-align: right;
+    width: 50%;
+    margin: 20px 20px 20px auto
+}
+
+.special .special_title {
+    color:#996633;
+    text-align: center;
+    font-size: 25px; ;
+    margin: 20px auto;
+}
+
+.first-list__title{
+    font-weight: bold;
+    margin: 20px auto;
+
+}
+
+.first-list ul {
+    color :blue;
+    list-style-type: circle;
+    margin: 20px 0 0 30px;
+}
+.first-list__img img {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0 0 0;
+}
+
+.second-list__title {
+    margin: 20px auto;
+}
+
+
+.second-list ol {
+    list-style-type: upper-roman;
+    margin-left: 30px;
+    margin: 20px auto;
+}
+
+.second-list_img img {
+    width: 400px;
+    height: 400px;
+}
+
+.menu .menu__title {
+    color: #996633;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px auto;
+}
+
+.menu .menu__table .makeup-table {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #C4CDD6;
+}
+
+.menu .menu__table {
+    width: 600px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+.menu__table th,
+.menu__table td {
+    padding: 15px;
+    border: 1px solid black
+}
+
+.menu__table .traditional-coffee {
+    background-image: url(./Image_buoi_4/chilling-cafe-13.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu__table .expresso {
+    background-image: url(./Image_buoi_4/chilling-cafe-01.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer .footer__title {
+    text-align: center;
+    font-size: 25px;
+    color: #996633;
+    margin: 20px auto;
+}   
+.footer .footer__contact-infor  {
+    text-align: center;
+}
